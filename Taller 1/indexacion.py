@@ -8,4 +8,5 @@ matriz_nueva= (alpha * matriz_original) + beta
 
 matriz_procesada =np.clip(matriz_nueva, 0, 255).astype(np.uint8)
 
-matriz_original, matriz_procesada
+print("Matriz original:\n", matriz_original)
+print("Matriz procesada:\n", matriz_procesada)
