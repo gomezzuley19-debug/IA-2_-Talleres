@@ -1,6 +1,6 @@
 import numpy as np
 
-pixel = np.array([0, 255, 255])  # [Azul, Verde, Rojo]
+pixel = np.array([0, 255, 255])
 
 print("Píxel BGR original:", pixel)
 

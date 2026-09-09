@@ -1,7 +1,7 @@
 import cv2
 import matplotlib.pyplot as plt
 
-imagen = cv2.imread('Taller 2/mar.jpg')
+imagen = cv2.imread('Taller 2/Imagenes/mar.jpg')
 
 canal_azul = imagen[:, :, 0]
 canal_verde = imagen[:, :, 1]
